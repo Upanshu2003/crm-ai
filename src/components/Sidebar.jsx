@@ -15,7 +15,7 @@ const navItems = [
 
 export default function Sidebar() {
   return (
-    <aside className="h-screen w-64 bg-orange-500 text-white p-4 flex flex-col gap-4 shadow-md">
+    <aside className="hidden md:flex h-screen w-64 bg-orange-500 text-white p-4 flex flex-col gap-4 shadow-md">
       <div className="text-2xl font-bold mb-6">CRM.ai</div>
       <nav className="flex flex-col gap-3">
         {navItems.map((item) => (
